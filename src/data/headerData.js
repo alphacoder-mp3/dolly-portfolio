@@ -1,5 +1,5 @@
 import resume from '../assets/pdf/DKR.pdf';
-import photo from '../assets/png/DK1.jpg';
+import photo from '../assets/png/DK1.jpeg';
 
 export const headerData = {
   name: 'Dolly Kumar',
