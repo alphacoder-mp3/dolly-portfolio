@@ -71,7 +71,7 @@ function Landing() {
 
   return (
     <div className="landing">
-      <div className="landing--container">
+      <div className="landing--container" style={{ width: '100svw' }}>
         <div
           className="landing--container-left"
           style={{ backgroundColor: theme.primary }}
