@@ -5,7 +5,6 @@ import { themeData } from '../data/themeData';
 export const ThemeContext = createContext();
 
 function ThemeContextProvider(props) {
-  // eslint-disable-next-line
   const theme = themeData.theme;
   const [drawerOpen, setDrawerOpen] = useState(false);
 
