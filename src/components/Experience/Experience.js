@@ -49,28 +49,12 @@ function Experience() {
         transform: 'translate(-50%, -50%)',
         width: '90%',
         maxHeight: '60vh',
+        maxWidth: 600,
         overflowY: 'auto',
         bgcolor: theme?.secondary,
         boxShadow: 24,
         p: 4,
         overflow: 'auto',
-      };
-
-      const styleD = {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        position: 'absolute',
-        top: '50%',
-        left: '50%',
-        transform: 'translate(-50%, -50%)',
-        width: '90%',
-        maxWidth: 600,
-        bgcolor: theme.secondary,
-        boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.2)',
-        outline: 'none',
-        borderRadius: 8,
-        p: 4,
       };
 
       const descriptionStyle = {
@@ -106,7 +90,7 @@ function Experience() {
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description"
                 >
-                <Box sx={window.innerWidth < 600 ? style : styleD}>
+                <Box sx={ style }>
                     <IconButton
                         className={classes.closeButton}
                         onClick={handleClose}

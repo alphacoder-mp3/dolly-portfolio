@@ -1,7 +1,11 @@
 export const aboutData = {
-    title: "Who I am",
-    description1: "My name is Dolly Kumar. I'm a Project Manager and a part time web designer based in Bangalore, IN.",
-    description2: "During the day, I work as a Project Manager at my work place, where I oversee and manage the successful delivery of various projects. I collaborate with cross-functional teams, including developers, designers, and stakeholders, to ensure project milestones and objectives are met. I lead the planning, execution, and monitoring of projects, ensuring they are completed on time, within budget, and to the satisfaction of clients and stakeholders.",
-    image: 2
-  };
-  
+  title: 'Who I am',
+  description1:
+    "My name is Dolly Kumar. I'm a Founder and Project Manager based in Bangalore, IN.",
+  description2: `Versatile professional with a strong blend of expertise in sales, business development, and operations management.
+Proven ability to drive substantial revenue growth, streamline workflows, and enhance customer satisfaction. Skilled
+in handling large-scale operational tasks, building high-impact sales strategies, and cultivating lasting client
+relationships. Adept at managing teams, optimizing processes, and implementing strategic plans to achieve
+organizational goals.`,
+  image: 2,
+};
